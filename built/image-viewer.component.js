@@ -64,7 +64,7 @@ var ImageViewer = /** @class */ (function (_super) {
          */
         _this.preloadImage = function (index) {
             if (index < _this.state.imageSizes.length) {
-                _this.loadImage(index + 1);
+                _this.loadImage(index);
             }
         };
         /**

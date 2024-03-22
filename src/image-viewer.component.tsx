@@ -223,7 +223,7 @@ export default class ImageViewer extends React.Component<Props, State> {
    */
   public preloadImage = (index: number) => {
     if (index < this.state.imageSizes!.length) {
-      this.loadImage(index + 1);
+      this.loadImage(index);
     }
   };
   /**
