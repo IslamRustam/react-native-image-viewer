@@ -532,8 +532,10 @@ export default class ImageViewer extends React.Component<Props, State> {
               ...image.props.source
             };
           }
-          if (this.props.enablePreload) {
-            this.preloadImage(this.state.currentShowIndex || 0);
+          if (this.props.enablePreload && this.state.imageSizes) {
+            this.state.imageSizes.forEach((_, index) => {
+              this.preloadImage(index);
+            });
           }
           return (
             <ImageZoom

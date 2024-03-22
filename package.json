@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ascoders/react-native-image-viewer.git"
+    "url": "https://github.com/IslamRustam/react-native-image-viewer.git"
   },
   "keywords": [
     "image-viewer"
   ],
-  "author": "ascoders",
+  "author": "IslamRustam",
   "license": "MIT",
   "dependencies": {
     "react-native-image-pan-zoom": "^2.1.12"
